@@ -1,0 +1,100 @@
+{
+    "bottom_nav_bar": {
+        "my_tasks": "мои задачи",
+        "assigned_tasks": "задачи от меня"
+    },
+    "default_states": {
+        "empty_list": "список пуст",
+        "error": "ошибка при загрузке",
+        "loading": "загрузка"
+    },
+    "screen_titles": {
+        "my_tasks": {
+            "title": "мои задачи",
+            "description": "здесь вы можете управлять своими задачами"
+        },
+        "assigned_tasks": {
+            "title": "задачи от меня",
+            "description": "здесь вы можете управлять задачами, которые вы назначили"
+        },
+        "responsible": {
+            "title": "выбор ответственного",
+            "description": "здесь вы можете выбрать или создать ответственного для новой задачи"
+        },
+        "responsible_item": {
+            "description": "назначить ответственным себя"
+        }
+    },
+    "task_date": {
+        "indefinitely_date": "бессрочно"
+    },
+    "task_priority": {
+        "title": "приоритеты задач",
+        "description": "выбирите приоритет для новой задачи",
+        "low": "низкий",
+        "medium": "средний",
+        "high": "высокий"
+    },
+    "add_responsible": {
+        "title": "добавить ответственного",
+        "description": "добавьте нового ответственного для ваших задач",
+        "name_title": "укажите имя",
+        "name_hint": "имя ответственного",
+        "phone_title": "укажите телефон в формате +7XXXXXXXXXX",
+        "phone_hint": "телефон ответственного",
+        "save": "добавить"
+    },
+    "task_form": {
+        "app_bar": {
+            "title": "новая задача",
+            "description": "здесь вы можете создать новую задачу"
+        },
+        "task_title": {
+            "title": "укажите название задачи",
+            "hint_title": "название задачи"
+
+        },
+        "task_description": {
+            "title": "укажите описание задачи",
+            "hint_description": "описание задачи"
+        },
+        "responsible": {
+            "title": "укажите ответственного",
+            "hint_responsible": "выбрать ответственного"
+        },
+        "priority": {
+            "title": "укажите приоритет задачи",
+            "hint_text": "выбрать приоритет"
+        },
+        "due_date": {
+            "title": "срок выполнения",
+            "hint_text": "выбрать срок выполнения"
+        },
+        "calendar": {
+            "cancel": "отмена",
+            "confirm": "ок"
+        },
+        "add_task": {
+            "title": "добавить задачу"
+        }
+    },
+    "validation_errors": {
+        "name_error": "минимум 2 символа",
+        "title_error": "минимум 5 символов",
+        "description_error": "минимум 10 символов",
+        "due_date_error": "срок выполнения не может быть раньше текущей даты",
+        "phone_error": "некорректный формат телефона"
+    },
+    "task_filter": {
+        "title": "фильтр задач",
+        "description": "выберите фильтры для отображения задач",
+        "priority": "приоритет",
+        "status": "статус",
+        "all_priorities": "все приоритеты",
+        "all_statuses": "все статусы",
+        "active": "активные",
+        "inactive": "неактивные",
+        "clear": "сбросить",
+        "apply": "применить"
+    }
+}
