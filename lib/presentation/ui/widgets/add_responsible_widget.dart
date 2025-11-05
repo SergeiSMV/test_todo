@@ -120,7 +120,11 @@ class AddResponsibleWidget extends ConsumerWidget {
                 responsibleValidationState.isValid &&
                 responsibleFormState.isValid,
             text: t.add_responsible.save,
-            onTap: () => _saveResponsible(context, ref, responsibleFormState),
+            onTap: () =>
+                responsibleValidationState.isValid &&
+                    responsibleFormState.isValid
+                ? _saveResponsible(context, ref, responsibleFormState)
+                : null,
           ),
 
           AppBoxes.kHeight30,

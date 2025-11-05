@@ -214,7 +214,10 @@ class AddTaskScreen extends ConsumerWidget {
                       newTaskState.validation.isValid,
                   text: t.task_form.add_task.title,
                   onTap: () =>
-                      _saveTask(context, addTaskNotifier, newTaskState.form),
+                      newTaskState.form.isValid &&
+                          newTaskState.validation.isValid
+                      ? _saveTask(context, addTaskNotifier, newTaskState.form)
+                      : null,
                 ),
 
                 AppBoxes.kHeight30,
